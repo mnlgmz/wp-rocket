@@ -132,6 +132,6 @@ MAILTO=email@example.com
 ```
 
 ## 7. Still need help? :rocket: 
-Support for WP Rocket is our business. :technologist: :wave:
+Support for WP Rocket is our business. :man_technologist: :wave:
 - **Got a valid license for WP Rocket?** Feel free to use our dedicated [contact form!](https://wp-rocket.me/contact/?nocache)
 - **Don’t own a valid license?** You can get one [right here!](https://wp-rocket.me/pricing/)
