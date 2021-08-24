@@ -1,5 +1,5 @@
 # How to clear WP-Rocket Cache at a specific time
-You can clear WP-Rocket Cache at a specific time using a helper. To clear WP-Rocket Cache, follow the steps below:
+You can clear WP-Rocket Cache at a specific time using a helper and a cron job. To set up a specific time to clear WP-Rocket Cache, follow the steps below:
 
 ## 1. Install the "Disable Cache Clearing" plugin
 
