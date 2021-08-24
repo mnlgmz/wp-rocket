@@ -1,7 +1,7 @@
 # How to clear WP-Rocket Cache at a specific time
-You can clear WP-Rocket Cache at a specific time using a helper. To make that happen, you have to perform the following steps:
+You can clear WP-Rocket Cache at a specific time using a helper. To clear WP-Rocket Cache, follow the steps below:
 
-## 1. Install the Disabling the Automatic Cache Clearing plugin
+## 1. Install the "Disable Cache Clearing" plugin
 
 Install and enable the following plugin: [Automatic Cache Clearing](https://github.com/wp-media/wp-rocket-helpers/raw/master/cache/wp-rocket-no-cache-auto-purge/wp-rocket-no-cache-auto-purge.zip)
 
@@ -41,7 +41,7 @@ require_once ABSPATH . 'wp-settings.php';
 
 Here is a short video so you can see where it should be uploaded: http://recordit.co/jbtM0WPfcw
 
-Custom WP Install folder? No problem. If you installed WordPress in a different location, make sure to edit the path to match its location, for instance:
+If you installed WordPress in a different location, make sure to edit the path to match its location, for instance:
 
 ```
 require( 'installation-folder/wp-load.php' );
@@ -124,7 +124,7 @@ If there is no cron created, you can create the cron job using the following com
 crontab –e
 ```
 
-Supposing the user wants to run the cron job at midnight, you can use the following command:
+Assuming the user wants to run the cron job at midnight, you can use the following command:
 
 ```
 MAILTO=email@example.com
